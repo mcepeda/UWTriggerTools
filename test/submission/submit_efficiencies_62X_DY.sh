@@ -31,8 +31,3 @@ farmoutAnalysisJobs $1-TT-40PU25ns \
   'inputFiles=$inputFileNames' 'outputFile=$outputFileName'  
 # --resubmit-failed-jobs
 
-farmoutAnalysisJobs $1-DYGEN-40PU25ns \
-  --infer-cmssw-path \
-  --input-file-list=DY25ns40PUGENRAW.txt \
-  ../makeGenEffi_cfg.py  \
-  'inputFiles=$inputFileNames' 'outputFile=$outputFileName'

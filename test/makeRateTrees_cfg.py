@@ -152,9 +152,9 @@ process.rlxEGUCTRate = cms.EDAnalyzer(
 
 process.uctLeptonRates = cms.Sequence(
     process.rlxTauUCTRate *
-    #process.isoTauUCTRate *
-    process.rlxEGUCTRate
-    #process.isoEGUCTRate
+    process.isoTauUCTRate *
+    process.rlxEGUCTRate *
+    process.isoEGUCTRate
 )
 process.jetL1Rate = cms.EDAnalyzer(
     "RateTree",

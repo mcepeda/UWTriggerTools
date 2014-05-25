@@ -14,37 +14,43 @@ process = cms.Process("ReRunningL1")
 
 process.source = cms.Source ("PoolSource",
                              fileNames = cms.untracked.vstring(
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/666531DD-9D75-E311-B95D-0025907DC9DC.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/D83DBA64-DE75-E311-88CD-0025907DC9CC.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/8EDF073A-8275-E311-80F7-00266CFFA25C.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/3415AE4D-B075-E311-865F-003048F0E194.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/B8AF4854-8275-E311-886D-00266CF327C4.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/9E9E1E8A-B075-E311-BFA2-00266CFFA048.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/88B7F378-9E75-E311-9F87-0025904B0FB6.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/606195D5-AF75-E311-8399-0025907DCA7E.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/C611F153-D375-E311-9436-003048F0E5B4.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/D28900FF-9E75-E311-9425-00266CF32F00.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/E29B3934-8275-E311-9202-0025901D42BC.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/C2BA874A-B075-E311-8964-0025901D4C92.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/A808CBDF-8F75-E311-8365-003048F0EBBE.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/7C3B05F1-BA75-E311-9495-003048D4610C.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/9E2AD326-B075-E311-B2AD-002481E0D6A6.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/06C609FB-B075-E311-8F3C-003048F0E59E.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/5A2B6818-DB75-E311-96CA-003048D4365C.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/866703E3-8F75-E311-A836-0025904B12B2.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/B6DD64ED-AF75-E311-8B96-00266CF32A00.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/F61F7047-8275-E311-A2D2-0025904B12F0.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/D285F57B-A475-E311-B032-00266CFFB868.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/F285AC91-DA75-E311-803F-003048C6903C.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/2A1BB24D-B075-E311-A5E9-003048F0E18C.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00000/144FD0F7-BA75-E311-8A18-00266CFFB390.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20000/CCFD4893-4075-E311-8A60-0025907FD2BA.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20000/BC8576EE-3575-E311-8AA7-00266CF33340.root",
-"/store/mc/Fall13dr/DYJetsToLL_M-50_13TeV-pythia6/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20000/D8EE3250-9775-E311-9096-002481E0D9BC.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/C2D9064D-FB7F-E311-BFCC-003048679228.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/389085BE-CF7F-E311-A4C7-0026189438EF.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/98E05035-0A80-E311-A784-003048D42D92.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/328D17F8-F87F-E311-ADA9-0025905A6122.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/08B46ECD-CA7F-E311-847A-002618943946.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20003/18F85924-3D7C-E311-AF32-0026189438D7.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/02B79593-F47F-E311-8FF6-003048FFD796.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/CAD02E5D-A67F-E311-843F-003048FFD756.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/20AE3CAC-CF7F-E311-B9DE-003048678E24.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/3CDB2CF8-0880-E311-8878-002618943935.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/0098522E-D77F-E311-89CC-0025905A610A.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20002/C2F9C279-117A-E311-A4EB-00261894389A.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/6AF2C1E2-DF7F-E311-B452-003048679162.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/9643B5C2-0280-E311-A66E-00261894394D.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/A0B9E0A6-C87F-E311-92E4-0026189438EF.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/4AEC3425-0580-E311-B5A2-0025905A611E.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20002/9673477E-D57A-E311-ACD1-002618943983.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20003/341F0B18-157B-E311-A26C-0025905A6088.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/EAC88847-C27F-E311-8824-0026189438F5.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/0A53FC3E-0780-E311-9D84-0025905A60AA.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/B08574C9-E57F-E311-99A5-003048D15DDA.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/4A4B2971-C07F-E311-843E-0025905A6094.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/1EFB29C6-BE7F-E311-83C7-003048FF9AA6.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/6AD89D7E-A57F-E311-B867-0025905A611E.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/AA99D298-B47F-E311-AB06-002618943901.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/9EF8E9D8-AA7F-E311-8589-0025905A60CA.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20003/BAB14DA6-CF7C-E311-BDBA-0026189438A7.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20002/5068EC78-B47A-E311-8CEB-003048678FAE.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/20001/306835C8-A679-E311-9A07-00261894387B.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/0CB7AE7E-A57F-E311-A1FF-00261894382A.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/BA95FC23-A87F-E311-BA73-001A928116D2.root",
+"/store/mc/Fall13dr/Neutrino_Pt-2to20_gun/GEN-SIM-RAW/tsg_PU40bx25_POSTLS162_V2-v1/00005/683C7D19-C97F-E311-AF6E-003048FF86CA.root",
+
                              )
 )
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(20000)
+    input = cms.untracked.int32(-1)
 )
 
 # Tested on Monte Carlo, for a test with data edit ahead
@@ -87,7 +93,7 @@ process.l1ExtraTreeProducer = cms.EDAnalyzer("L1ExtraTreeProducer",
 
 
 process.TFileService = cms.Service("TFileService",
-    fileName = cms.string('genEffis2.root')
+    fileName = cms.string('genRate2.root')
 )
 
 process.createGenParticlesEle =cms.EDProducer("FilterGenParticles",
@@ -199,8 +205,7 @@ process.compareEfficiency = cms.EDAnalyzer(
     recoSrc = cms.VInputTag("createGenParticlesEle"),
     l1Src = cms.VInputTag(
         # These two collections
-        cms.InputTag("l1extraParticlesUCT","NonIsolated"),
-        cms.InputTag("l1extraParticlesUCT", "Isolated"),
+        cms.InputTag("l1extraParticlesUCT","NonIsolated")
     ),
     l1GSrc = cms.VInputTag(cms.InputTag("UCT2015Producer", "RelaxedEGUnpacked")),
     l1GPUSrc = cms.InputTag("UCT2015Producer", "PULevel"),
@@ -221,8 +226,7 @@ process.rlxEGEfficiency = cms.EDAnalyzer(
         cms.InputTag("l1extraParticles", "NonIsolated"),
         cms.InputTag("l1extraParticles", "Isolated"),
     ),
-    l1GSrc = cms.VInputTag(cms.InputTag("l1extraParticlesUCT","NonIsolated"),         cms.InputTag("l1extraParticlesUCT", "Isolated"),
-),
+    l1GSrc = cms.VInputTag(cms.InputTag("l1extraParticlesUCT","NonIsolated")),
     l1GPUSrc = cms.InputTag("UCT2015Producer", "PULevel"),
     # Max DR for RECO-trigger matching
     maxDR = cms.double(0.5),
@@ -338,7 +342,7 @@ process.FullMenuUCT=cms.EDAnalyzer(
 process.FullMenuUCTL1Extra=cms.EDAnalyzer(
     "Menu",
     isUCT = cms.bool(False),
-    srcEG = cms.VInputTag(cms.InputTag("l1extraParticlesUCT", "NonIsolated")),
+    srcEG = cms.VInputTag(cms.InputTag("l1extraParticlesUCT", "NonIsolated"),cms.InputTag("l1extraParticlesUCT", "Isolated")),
     srcIsoEG = cms.VInputTag(cms.InputTag("l1extraParticlesUCT", "Isolated")),
     srcJET = cms.VInputTag(cms.InputTag("l1extraParticlesUCT", "Central"),cms.InputTag("l1extraParticlesUCT", "Forward")),
     srcTAU = cms.VInputTag(cms.InputTag("l1extraParticlesUCT", "Tau")),
@@ -350,22 +354,7 @@ process.FullMenuUCTL1Extra=cms.EDAnalyzer(
 
 process.p1 = cms.Path(
     process.emulationSequence *
-    process.uct2015L1Extra *
-    process.l1ExtraTreeProducer*
-    process.l1ExtraTreeProducerUCT
-    *process.createGenParticlesEle
-    *process.rlxEGEfficiency
-    *process.compareEfficiency
-    *process.createGenParticlesEleIso
-    *process.isoEGEfficiency
-    *process.isoEGEfficiencyGENRLX
-    * process.cleanGenJets
-    *process.jetEfficiency            
-    *process.uctSumsEfficiency
-    *process.l1SumsEfficiency
-    *process.createGenParticlesTau
-    *process.rlxTauEfficiency
-    *process.rlxTauL1TauPlusJetsEfficiency
+    process.uct2015L1Extra 
     *process.FullMenuUCTL1Extra
     *process.FullMenuUCT    
 )
