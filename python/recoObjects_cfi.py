@@ -92,7 +92,6 @@ cleanJets=cms.Sequence(
     recoElecs*
     isoElecs*
     calibratedAK5PFJets*
-    ak5PFJetsNOMuons*
     recoJets
 )
 

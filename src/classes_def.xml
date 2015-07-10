@@ -1,6 +1,0 @@
-<lcgdict>
-<selection>
-  <class name="L1RecoMatch"/>
-  <class name="std::map<std::string, float>"/> 
-</selection>
-</lcgdict>
